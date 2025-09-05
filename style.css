@@ -1,0 +1,101 @@
+body {
+    background: #0d0d1a;
+    color: #c9c9d4;
+    font-family: 'Electrolize', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+    color: #00ffcc;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    border-bottom: 2px solid #00ffcc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 40px;
+    border-left: 4px solid #00ffcc;
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #00ccff;
+}
+
+section {
+    background: rgba(18, 18, 36, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 255, 204, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+section:hover {
+    border-color: rgba(0, 255, 204, 0.8);
+    box-shadow: 0 0 30px rgba(0, 255, 204, 0.5), 0 0 5px rgba(0, 204, 255, 0.5);
+    transform: translateY(-5px);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: rgba(0, 204, 255, 0.05);
+    border-left: 2px solid #00ccff;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+ul li:hover {
+    background: rgba(0, 204, 255, 0.15);
+}
+
+a {
+    color: #00ccff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #00ffcc;
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+strong {
+    color: #00ffcc;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 255, 204, 0), rgba(0, 255, 204, 0.75), rgba(0, 255, 204, 0));
+    margin: 40px 0;
+}
+
+/* Додаткові стилі для секцій досвіду */
+h4 {
+    color: #00ccff;
+    margin-top: 20px;
+    border-bottom: 1px dashed #00ccff;
+    padding-bottom: 5px;
+}
